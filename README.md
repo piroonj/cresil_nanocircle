@@ -20,3 +20,15 @@ Python scripts and pipeline for detecting eccDNA from Nanopore reads
     CReSIL-identify.py -h
     CReSIL-verify.py -h
     ```
+    
+* Creating an environment with commands:
+    ```bash
+    ## Run trim 
+    python CReSIL/CReSIL-trim.py -i exp_reads.fastq -r hg19.25chr.mmi -o exp_reads
+    
+    ## Run eccDNA identification
+    python CReSIL/CReSIL-identify.py -fq exp_reads.fastq -trim exp_reads.refTrim_map.txt -g hg19.25chr.fasta.fai -b exp1 -o eccdna_result
+    
+    ## Run verify eccDNA
+    python CReSIL/CReSIL-verify.py -d eccdna_result -i eccdna_result/exp1/exp1.refTrim_map.eccDNA.txt -r hg19.25chr.mmi -o exp1.refTrim_map.eccDNA.verified.txt
+    ```
