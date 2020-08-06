@@ -45,7 +45,6 @@ class NanoCircle:
 
             # The positional arguments
             elif sys.argv[1] == "Circles":
-                print("Circles works")
                 # Defines the subprogram with the arguments given by args_Simple()
                 self.subprogram = self.args_Circles()
                 # passes all the arguments needed for the simple commands
@@ -59,7 +58,6 @@ class NanoCircle:
                 Class_object.Circle_output()
 
             elif sys.argv[1] == "Merge":
-                print("Merge works")
                 self.subprogram = self.args_Merge()
                 self.args = self.subprogram.parse_args(sys.argv[2:])
 
