@@ -78,11 +78,6 @@ class Merge_config:
             #list with the collapsed circle ID
             id_val_list.append(line_value[3].split(","))
 
-        #print("line val", line_val_list)
-        #print("ID val", id_val_list)
-
-        #print("id",id_val_list)
-        #print(line_val_list)
         return id_val_list, line_val_list
 
     def overlap_region(self,list1,list2):
@@ -93,8 +88,6 @@ class Merge_config:
         :return: list of interval [chr,min,max] if the distance between the regions are below nt_overlap. Otherwise
         the regions are concatenated e.g.  ['chr1', '37777195', '37778735','chr18', '4219198', '4222801']
         """
-
-        #print("Chromosome", list1, list2,list1[-3],list2[0])
 
         # if the chromosome is the same there is potential for overlap, compare previous region list1[-3] to the next
         # region list[0]
@@ -225,8 +218,6 @@ class Merge_config:
         add_val = [Total_length, id_val_list, ID]
 
         for i in range(len(add_col)):
-            print("II",i)
-            print(add_val[i])
             df.insert(loc=len(df.columns), column=add_col[i], value=add_val[i])
 
         # ensure the chromosome lengths, and other numbers are integers
