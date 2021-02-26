@@ -23,6 +23,7 @@ Python scripts and pipeline for detecting eccDNA from Nanopore reads
     
 * Run CReSIL:
     ```bash
+    ## hg19 database is at /storage/databases/genomes/Homo_sapiens/UCSC/hg19/Sequence/WholeGenomeFasta/
     ## Run trim 
     python CReSIL/CReSIL-trim.py -i exp_reads.fastq -r hg19.25chr.mmi -o exp_reads
     
