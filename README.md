@@ -1,6 +1,6 @@
 # CReSIL_NanoCircle
 
-Python scripts and pipeline for detecting eccDNA from Nanopore reads
+Python scripts containing bioinfomatic pipeline for detecting eccDNA from long read Oxford Nanopore.CReSIL  
 
 
 
