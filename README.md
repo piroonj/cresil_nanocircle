@@ -1,8 +1,8 @@
 # CReSIL_NanoCircle
 
-Python scripts containing bioinfomatic pipeline for detecting eccDNA from long read Oxford Nanopore.CReSIL  
+Python scripts containing bioinfomatic pipeline for detecting eccDNA from long read Oxford Nanopore.
 
-
+CReSIL  
 
 * Creating an environment with commands:
     ```bash
