@@ -2,7 +2,7 @@
 
 Python scripts containing bioinfomatic pipeline for detecting eccDNA from long read Oxford Nanopore.
 
-CReSIL  
+CReSIL (developing version)
 
 * Creating an environment with commands:
     ```bash
