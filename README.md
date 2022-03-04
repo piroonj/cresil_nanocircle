@@ -37,6 +37,6 @@ CReSIL (developing version)
 # NanoCircle
 NanoCircle is a tool developed for identifying the coordinates of both simple and chimeric circular molecules, sequenced using long-read sequencing. Contact Rasmus Amund Henriksen, wql443@alumni.ku.dk
 
-Plese refer to https://github.com/RAHenriksen/NanoCircle for the latest version of NanoCircle
+Please refer to https://github.com/RAHenriksen/NanoCircle for the latest version of NanoCircle
 
 ---
