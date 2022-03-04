@@ -1,4 +1,4 @@
-# CReSIL_NanoCircle
+# CReSIL
 
 Python scripts containing bioinfomatic pipeline for detecting eccDNA from long read Oxford Nanopore.
 
@@ -32,3 +32,11 @@ CReSIL (developing version)
     ## Run verify eccDNA
     python CReSIL/CReSIL-verify.py -d eccdna_result -i eccdna_result/exp1/exp1.refTrim_map.eccDNA.txt -r hg19.25chr.mmi -o exp1.refTrim_map.eccDNA.verified.txt
     ```
+---
+
+# NanoCircle
+NanoCircle is a tool developed for identifying the coordinates of both simple and chimeric circular molecules, sequenced using long-read sequencing. Contact Rasmus Amund Henriksen, wql443@alumni.ku.dk
+
+Plese refer to https://github.com/RAHenriksen/NanoCircle for the latest version of NanoCircle
+
+---
