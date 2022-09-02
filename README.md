@@ -1,4 +1,9 @@
-# CReSIL
+# To access the full version of CReSIL with extra features, please click the link below. 
+# https://github.com/visanuwan/cresil
+
+--- 
+
+# CReSIL (developed version)
 
 Python scripts containing bioinfomatic pipeline for detecting eccDNA from long read Oxford Nanopore.
 
